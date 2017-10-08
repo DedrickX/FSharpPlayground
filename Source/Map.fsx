@@ -5,7 +5,7 @@
 // Signature:
 // (a->b) -> E<a> -> E<b>.
 // Alternatively with the parameters reversed:
-// E<a> -> (a->b) -> E<b>
+// E<a> -> (a -> b) -> E<b>
 
 
 /// map for Options
