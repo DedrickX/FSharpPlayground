@@ -1,4 +1,13 @@
 
+// Common names: map, fmap, lift, Select
+// Lifts a function into the elevated world.
+//
+// Signature:
+// (a->b) -> E<a> -> E<b>.
+// Alternatively with the parameters reversed:
+// E<a> -> (a->b) -> E<b>
+
+
 /// map for Options
 let mapOption f opt =
     match opt with
