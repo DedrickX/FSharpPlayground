@@ -5,3 +5,15 @@ type Result =
 
 let x = Long 5L
 
+
+
+
+//type UserName = string
+
+type UserName = UserName of string
+
+let getIdByName userName =
+    if userName = "" then
+        0
+    else
+        10
